@@ -173,13 +173,10 @@ void AMyPaperCharacter::UpdateCharacter()
     {
         if (bIsJumping)
         {
-
             /* if (PlayerVelocity.Z == 0)
              {
                  UpdateAnimation(ECharacterState::JumpReady);
              }*/
-
-
             switch (CurrentState)
             {
             case ECharacterState::JumpReady:
