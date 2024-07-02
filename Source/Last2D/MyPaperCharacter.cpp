@@ -22,7 +22,12 @@
 
 AMyPaperCharacter::AMyPaperCharacter()
 {
-	
+    //PaperZDAnimation = CreateDefaultSubobject<UPaperZDAnimationComponent>(TEXT("PaperZDAnimation"));
+    //if (PaperZDAnimation)
+    //{
+    //    /*AddInstanceComponent(PaperZDAnimation);
+    //    PaperZDAnimation->RegisterComponent();*/
+    //}
     //카메라, 스프링암 컴퍼넌트를 값 세팅
     // Spring Arm Component
     SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));

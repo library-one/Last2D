@@ -13,7 +13,7 @@ class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
 template <typename T> struct TObjectPtr;
-
+//class UPaperZDAnimationComponent;
 
 
 UENUM(BlueprintType)
@@ -124,4 +124,6 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<class UCameraComponent> Camera;
 	
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	//TObjectPtr<class UPaperZDAnimationComponent> PaperZDAnimation;
 };
